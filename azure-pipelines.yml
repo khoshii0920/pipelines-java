@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest, rtx3080
+  #vmImage: ubuntu-latest
+  vmImage: rtx3080
 
 steps:
 - task: Maven@3
